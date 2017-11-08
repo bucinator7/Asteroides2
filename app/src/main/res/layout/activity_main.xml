@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:weightSum="1"
+    tools:context="example.org.asteroides.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="132dp"
+        android:layout_height="34dp"
+        android:text="Asteroides"
+        tools:text="Asteroides" />
+
+    <Button
+        android:id="@+id/Jugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Jugar" />
+
+    <Button
+            android:id="@+id/Configurar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Configurar" />
+
+        <Button
+            android:id="@+id/Acerca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Acerca" />
+
+        <Button
+            android:id="@+id/Salir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Salir" />
+</LinearLayout>
+
+
